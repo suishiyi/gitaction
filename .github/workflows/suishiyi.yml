@@ -11,7 +11,7 @@ jobs:
    steps:
      - name: Run a multi-line script
        run: |
-       echo 啊啊啊
+        echo 啊啊啊
 
 
 
