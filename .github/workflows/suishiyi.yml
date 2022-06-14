@@ -14,6 +14,7 @@ jobs:
           echo 啊啊啊
           bashname=gitaction_suishiyi.sh
           curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$bashname
+          ls
           chmod   777    $bashname
           sed -i 's/\r//'     $bashname
           bash ./ $bashname
