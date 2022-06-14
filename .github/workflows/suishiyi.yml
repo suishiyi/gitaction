@@ -6,13 +6,12 @@ on:
     #branches: [ "main" ]
   workflow_dispatch:
 jobs:
-build:
-    runs-on: ubuntu-latest
-    steps:
-
-      - name: Run a multi-line script
-        run: |
-          echo 啊啊啊
+ build:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Run a multi-line script
+       run: |
+         echo 啊啊啊
 
 
 
