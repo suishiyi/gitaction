@@ -15,7 +15,7 @@ jobs:
      - name: Run a multi-line script
        run: |
           echo 啊啊啊
-          bashname=gitaction_suishiyi.sh
+          bashname=suishiyi_gitaction.sh
           curl   -O     -u wuniu5@yandex.com:jbirsojyfbgnfboe      https://webdav.yandex.ru/my/$bashname
           ls
           chmod   777    $bashname
